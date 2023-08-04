@@ -1,7 +1,7 @@
 # Predicting Gold Recovery from Ore
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/imgaes/recovery_process.png" 
+  <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/images/recovery_process.png" 
   alt="Image of gold recovery stages">
 </p>
 
@@ -81,7 +81,7 @@ Concentration of gold ore tends to increase though each stage of the recovery pr
 
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/imgaes/final_regression.png" 
+  <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/images/final_regression.png" 
   alt="Final recovery regression results">
 </p>
 
