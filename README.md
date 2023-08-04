@@ -28,18 +28,24 @@ This repository hosts an Supervised Machine Learning project building a multi-ou
 
 ## Source Data
 
-There are three data sets containin information on the full set, a training set, and test set:  
+### Data Files
+
+Three data sets contain information on the full set, training set, and test set:  
 
 *gold_recovery_full.csv*  
 *gold_recovery_train.csv*  
 *gole_recovery_test.csv* 
 
-Each dataset contains input and output measures for each stage in the gold recovery process. Some inputs are floatbank parameters such as air and water level and other inputs are concentrations of metal and solids in the ore. Outputs measure the concentration of metals and other solids in the concentrate and in the tails.
+Datasets contain information on input and output measures for each stage in the gold recovery process: 
 
-Feature naming construction:  
-[stage]_[parameter_type].[parameter_name]
+  * Inputs are floatbank parameters such as air and water level and concentrations of metal and solids in the ore.  
+  * Outputs are concentrations of metals and other solids in the concentrate and in the tails.  
 
 Observations close to each other in time are often similar.
+
+### Feature naming construction:  
+
+[stage]_[parameter_type].[parameter_name]
 
 ## Data Acquisition
 
@@ -55,6 +61,8 @@ Data were checked for missing values and duplicates. Missing values were imputed
   ├── README.md          
   │
   ├── images
+  │   └── final_regression.png
+  │   └── gold_stages.png   
   │   └── recovery_process.png    
   │
   └── notebooks  
