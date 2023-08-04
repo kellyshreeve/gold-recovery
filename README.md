@@ -18,28 +18,36 @@ This repository hosts an Supervised Machine Learning project building a multi-ou
 
 ## Python Packages Used
 
-  - <b>General Purpose</b>: '''numpy'''
+  - <b>General Purpose</b>: ```numpy```
   - <b>Data Manipulation</b>: ```pandas```
   - <b>Data Visualization</b>: ```matplotlib```
   - <b>Statistical Analysis</b>: ```statsmodels```
-  - <b>Machine Learning</b>: '''sklearn'''
+  - <b>Machine Learning</b>: ```sklearn```
     
 # Data
 
 ## Source Data
 
-*gold_recovery_full.csv*
-*gold_recovery_train.csv*
-*gole_recovery_test.csv*
+There are three data sets containin information on the full set, a training set, and test set:  
 
+*gold_recovery_full.csv*  
+*gold_recovery_train.csv*  
+*gole_recovery_test.csv* 
+
+Each dataset contains input and output measures for each stage in the gold recovery process. Some inputs are floatbank parameters such as air and water level and other inputs are concentrations of metal and solids in the ore. Outputs measure the concentration of metals and other solids in the concentrate and in the tails.
+
+Feature naming construction:  
+[stage]_[parameter_type].[parameter_name]
+
+Observations close to each other in time are often similar.
 
 ## Data Acquisition
 
-The data were provided by TripleTen Data Science bootcamp.
+The data were provided by TripleTen's Data Science bootcamp. As such the full dataset is loaded into the notebook but is proprietary information and cannot be shared online with the project.
 
 ## Data Preprocessing
 
-Data were checked for missing values and duplicates. None were found and no imputation was necessary.
+Data were checked for missing values and duplicates. Missing values were imputed with the average of forward and backward fill. There were no duplicates.
  
 # Code Structure
 ```
@@ -47,12 +55,11 @@ Data were checked for missing values and duplicates. None were found and no impu
   ├── README.md          
   │
   ├── images
-  │   └── car-picture.png    
+  │   └── recovery_process.png    
   │
-  ├── notebooks  
-  │   └── Zuber_Analysis.ipynb 
-  │
-  └── requirements.txt  
+  └── notebooks  
+     └── gold-recovery-analysis.ipynb
+ 
 ```
 
 # Results and Evaluation
