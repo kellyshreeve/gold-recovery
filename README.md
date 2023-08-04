@@ -73,7 +73,7 @@ Data were checked for missing values and duplicates. Missing values were imputed
 # Results and Evaluation
 
 <p align="center">
-  <img src="/blob/main/images/gold_stages.png" 
+  <img src="https://github.com/kellyshreeve/predicting-gold-recovery/blob/main/images/gold_stages.png" 
   alt="Line graph of gold concentration across stages">
 </p>
 
