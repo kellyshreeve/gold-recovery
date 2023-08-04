@@ -73,7 +73,7 @@ Data were checked for missing values and duplicates. Missing values were imputed
 # Results and Evaluation
 
 <p align="center">
-  <img src="/images/gold_stages.png" 
+  <img src="/blob/main/images/gold_stages.png" 
   alt="Line graph of gold concentration across stages">
 </p>
 
