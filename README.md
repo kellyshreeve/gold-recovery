@@ -65,19 +65,15 @@ Data were checked for missing values and duplicates. Missing values were imputed
 # Results and Evaluation
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/trips-company.png" 
-  alt="Bar graph of total trips by company">
+  <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/imgaes/gold_stages.png" 
+  alt="Line graph of gold concentration across stages">
 </p>
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/drop-offs.png" 
-  alt="Bar graph of average drop offs by neighborhood">
+  <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/imgaes/final_regression.png" 
+  alt="Final recovery regression results">
 </p>
 
-<p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/hypothesis-test.png" 
-  alt="Statistical output of two-indpendent samples t-test comparing average trip length in good vs bad weather">
-</p>
 
 # Future Work
 
