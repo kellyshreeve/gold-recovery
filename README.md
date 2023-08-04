@@ -1,4 +1,4 @@
-# Predicting Gold Recovery
+# Predicting Gold Recovery from Ore
 
 <p align="center">
   <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/imgaes/recovery_process.png" 
@@ -7,7 +7,7 @@
 
 # Project Overview
 
-This repository hosts an in-depth analysis of ride-share customer behavior in Chicago and includes descriptive statistics, data visualizations, and hypothesis tests on data from competitors in the area. This data science project was conducted for Zuber, a new ride share company launching in Chicago, with the purpose of finding which companies are top competitors, which neighborhoods are most popular for drop offs, and whether there is a difference in trip length on rainy days and sunny days.
+This repository hosts an Supervised Machine Learning project building a multi-output regression that minimizes symmetric Mean Absolute Error (sMAPE). This data science project was conducted for Zyfra, a company that develops efficiency solutions for heavy industry, with the purpose of finding which model for gold estraction bet minimizes sMAPE and identifying which factors are unprofitable.
 
 # Installation and Setup
 
@@ -18,36 +18,24 @@ This repository hosts an in-depth analysis of ride-share customer behavior in Ch
 
 ## Python Packages Used
 
-  - <b>General Purpose</b>: NA
+  - <b>General Purpose</b>: '''numpy'''
   - <b>Data Manipulation</b>: ```pandas```
-  - <b>Data Visualization</b>: ```plotly.express```
-  - <b>Statistical Analysis</b>: ```SciPy, researchpy```
-  - <b>Machine Learning</b>: NA
-
-## Installing development requirements
-
-```pip install -r requirements.txt```
-
+  - <b>Data Visualization</b>: ```matplotlib```
+  - <b>Statistical Analysis</b>: ```statsmodels```
+  - <b>Machine Learning</b>: '''sklearn'''
+    
 # Data
 
 ## Source Data
 
-sql_result_01.csv
-  * *company_name*: taxi company name
-  * *trips_amount*: the number of rides for each taxi company on November 15-16, 2017  
+*gold_recovery_full.csv*
+*gold_recovery_train.csv*
+*gole_recovery_test.csv*
 
-sql_result_04.csv
-  * *dropoff_location_name*: Chicago neighborhoods where rides ended
-  * *average_trips*: the average number of rides that ended in each neighborhood in November 2017  
-
-sql_result_07.csv
-  * *start_ts*: picup date and time
-  * *weather_conditions*: weather conditions at the moment the ride started
-  * *duration_seconds*: ride duration in seconds
 
 ## Data Acquisition
 
-The data were retrieved through HTML parsing and SQL queries of a large database provided by TripleTen. 
+The data were provided by TripleTen Data Science bootcamp.
 
 ## Data Preprocessing
 
