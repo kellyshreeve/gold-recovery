@@ -1,7 +1,7 @@
 # Predicting Gold Recovery
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/images/reocvery_process.png" 
+  <img src="https://github.com/kellyshreeve/gold-recovery/blob/main/imgaes/recovery_process.png" 
   alt="Image of gold recovery stages">
 </p>
 
